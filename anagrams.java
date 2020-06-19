@@ -31,8 +31,6 @@ public class Solution {
 
     }
 
-
-    // Complete the makeAnagram function below.
     static int makeAnagram(String a, String b) {
 
         HashMap<Character, Integer> aMap = getCharCountMap(a);
@@ -57,7 +55,6 @@ public class Solution {
             result += bMap.get(charKey);
         }
 
-
         return result;
 
     }
@@ -79,5 +76,12 @@ public class Solution {
         bufferedWriter.close();
 
         scanner.close();
+    }
+
+    private Long testing() {
+        Long a = 10;
+        Long b = 20;
+        Long c = a + b;
+        return c;
     }
 }
