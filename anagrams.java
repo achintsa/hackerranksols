@@ -81,7 +81,8 @@ public class Solution {
     private Long testing() {
         Long a = 10;
         Long b = 20;
-        Long c = a + b;
+        Long d = 10;
+        Long c = a + b + d;
         return c;
     }
 }
