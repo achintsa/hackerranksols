@@ -1,0 +1,15 @@
+main commands-
+
+1. git clone <repository> --> to take repository code on your local machine
+2. git branch --> to check branch
+3. git checkout <branch_name> -> change branch
+
+
+// main commands for working-
+4. git pull origin <branchName>
+5. git add <filename>  
+6. git commit -m "<commit message>"
+7. git push origin <branchName>
+
+
+
